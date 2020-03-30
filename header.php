@@ -34,90 +34,25 @@
     
 <?php
         
-
+for ($NbreElementLigne=1) {
+    foreach($menu as $value){
+        ?>
+        <option value="<?php echo strtolower($value); ?>"><?php echo $value; ?></option>
+    <?php
     
+};
     
-   switch($NbreElementLigne) {
-           
-       case 1:
-         
-         echo'   
-        <nav id="menu" class="panel" role="navigation">
-          <ul>
-                <li><div><a href="/helpers/">Les helpers</a></div></li>
-                <li><div><a href="/classe/">La classe</a></div></li>
-                <li><div><a href="/note/">La note</a></div></li>
-                <li><div><a href="/menu/">Le menu</a></div></li>
-                <li><div><a href="/referencement/">Référencement</a></div></li>
-                <li><div><a href="/vignettes/">Les vignettes</a></div></li>
-                <li><li><div><a href="/morpion/">Le morpion</a></div></li>
-                <li><div><a href="/news/">Les news</a></div></li>
-                <li><div><a href="/fichier-csv/">Fichier CSV</a></div></li>
-                </li>
-            </ul>
-        </nav>';
-
-       case 2:
-     
-                  echo'   
-        <nav id="menu" class="panel" role="navigation">
-          <ul>
-                <li><div><a href="/helpers/">Les helpers</a></div>
-                <div><a href="/classe/">La classe</a></div></li>
-                
-                <li><div><a href="/note/">La note</a></div>
-                <div><a href="/menu/">Le menu</a></div></li>
-                
-                <li><div><a href="/referencement/">Référencement</a></div>
-                <div><a href="/vignettes/">Les vignettes</a></div></li>
-                
-                <li><li><div><a href="/morpion/">Le morpion</a></div>
-                <div><a href="/news/">Les news</a></div></li>
-                
-                <li><div><a href="/fichier-csv/">Fichier CSV</a></div></li>
-                </li>
-            </ul>
-        </nav>';
-         
-       case 3:
-                  echo'   
-        <nav id="menu" class="panel" role="navigation">
-          <ul>
-                <li><div><a href="/helpers/">Les helpers</a></div>
-                <div><a href="/classe/">La classe</a></div>
-                <div><a href="/note/">La note</a></div></li>
-                
-                <li><div><a href="/menu/">Le menu</a></div>
-                <div><a href="/referencement/">Référencement</a></div>
-                <div><a href="/vignettes/">Les vignettes</a></div></li>
-                
-                <li><div><a href="/morpion/">Le morpion</a></div>
-                <div><a href="/news/">Les news</a></div>
-                <div><a href="/fichier-csv/">Fichier CSV</a></div></li>
-            
-            </ul>
-        </nav>';
-       case 4:
-                           
-           echo'   
-        <nav id="menu" class="panel" role="navigation">
-          <ul>
-                <li><div><a href="/helpers/">Les helpers</a></div>
-                <div><a href="/classe/">La classe</a></div>
-                <div><a href="/note/">La note</a></div>
-                <div><a href="/menu/">Le menu</a></div></li>
-                
-                <li><div><a href="/referencement/">Référencement</a></div>
-                <div><a href="/vignettes/">Les vignettes</a></div>
-                <div><a href="/morpion/">Le morpion</a></div>
-                <div><a href="/news/">Les news</a></div></li>
-                
-                <li><div><a href="/fichier-csv/">Fichier CSV</a></div></li>
-            
-            </ul>
-        </nav>';
-         
-     }
+for   ($NbreElementLigne=2) {
+    
+};
+for   ($NbreElementLigne=3){
+       
+   };
+       
+ for  ($NbreElementLigne=4) {
+    
+};
+    
     
 $menu['Les helpers'] = array();
 $menu['Les helpers']['link'] = '/helpers/';
