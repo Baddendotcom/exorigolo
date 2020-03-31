@@ -10,7 +10,7 @@ define('', 'mdpphprigolo');
 
 $dbconnexion = new PDO('mysql:host=localhost;dbname='.phprigolo, 'root','', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 
-$NbreElementLigne = 3;
+$NbreElementLigne = 1;
 
 $menu['Les helpers'] = array();
 $menu['Les helpers']['link'] = '/helpers/';
