@@ -4,21 +4,6 @@
     <!-- début traitement image upload-->
 
 
-<?php
-
-if(!empty($_files)){
-    $img=$_files['img'];
-    $ext=strtolower(substr($img['name'],-3));
-    $allow_ext=array("jpg");
-    if (in_array($ext,$allow_ext)){
-    move_uploaded_file($img['tmp_name'],"vignettes/".$img['name']);
-    }else{
-     $img = imagecreatefromjpg($_FILES[$file_field]['name']);
-         }
-                       }
-
-
-?>
     <!-- fin traitement image upload-->
 
 

@@ -34,12 +34,6 @@
     
 <?php
         
-/*for $NbreElementLigne=1;{
-    ;
-}
-    */
-
-
   ?>
     
 <!-- Fin menu à remplacer avec les tableaux de config.php -->
